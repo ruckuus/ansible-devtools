@@ -1,0 +1,32 @@
+---
+- name: Install Devtools 
+  apt: pkg={{ item }} state=latest
+  with_items:
+    - git
+    - vim
+    - zip
+    - tig
+    - mtr
+    - wget 
+    - htop
+    - make
+    - ntop
+    - curl
+    - iotop
+    - iperf
+    - ngrep
+    - unzip
+    - rsync
+    - vnstat
+    - iptraf
+    - screen
+    - strace
+    - tcpdump
+    - sysstat
+    - iproute
+    - libpcre3
+    - dos2unix
+    - iptables
+    - bind9utils
+    - traceroute
+    - libpcre3-dev
